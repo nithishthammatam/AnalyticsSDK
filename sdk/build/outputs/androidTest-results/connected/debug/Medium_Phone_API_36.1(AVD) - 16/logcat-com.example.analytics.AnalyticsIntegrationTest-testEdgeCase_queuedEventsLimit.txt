@@ -1,0 +1,2040 @@
+05-16 17:03:17.855  9953  9969 I TestRunner: started: testEdgeCase_queuedEventsLimit(com.example.analytics.AnalyticsIntegrationTest)
+05-16 17:03:17.858   877  1109 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=521, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10220 RequestorUid: 10220 RequestorPkg: com.example.analytics.test UnderlyingNetworks: Null] ]
+05-16 17:03:17.858   877  1109 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=521, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10220 RequestorUid: 10220 RequestorPkg: com.example.analytics.test UnderlyingNetworks: Null] ]
+05-16 17:03:17.858   877  1119 D ConnectivityService: NetReassign [521 : null → 101] [c 1] [a 1] [i 0]
+05-16 17:03:17.859   877  1109 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=521, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10220 RequestorUid: 10220 RequestorPkg: com.example.analytics.test UnderlyingNetworks: Null] ]
+05-16 17:03:17.859   877  1109 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=521, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10220 RequestorUid: 10220 RequestorPkg: com.example.analytics.test UnderlyingNetworks: Null] ]
+05-16 17:03:17.988  9953  9969 D AnalyticsSDK: AnalyticsSDK initialized with endpoint: https://api.dummy.com/events
+05-16 17:03:18.065  9953  9969 W WM-WorkSpec: Interval duration lesser than minimum allowed value; Changed to 900000
+05-16 17:03:18.082  9953  9969 D AnalyticsSDK: Event: spam_event_1
+05-16 17:03:18.082  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.082  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.089  9953  9969 D AnalyticsSDK: Event: spam_event_2
+05-16 17:03:18.089  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.089  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.093  9953  9969 D AnalyticsSDK: Event: spam_event_3
+05-16 17:03:18.093  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.093  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.093  9953  9969 D AnalyticsSDK: Event: spam_event_4
+05-16 17:03:18.093  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.093  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.095  9953  9969 D AnalyticsSDK: Event: spam_event_5
+05-16 17:03:18.095  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.095  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.096  9953  9969 D AnalyticsSDK: Event: spam_event_6
+05-16 17:03:18.096  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.096  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.098  9953  9969 D AnalyticsSDK: Event: spam_event_7
+05-16 17:03:18.098  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.098  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.099  9953  9969 D AnalyticsSDK: Event: spam_event_8
+05-16 17:03:18.099  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.099  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.103  9953  9969 D AnalyticsSDK: Event: spam_event_9
+05-16 17:03:18.103  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.103  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.108  9953  9969 D AnalyticsSDK: Event: spam_event_10
+05-16 17:03:18.108  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.108  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.108  9953  9969 D AnalyticsSDK: Event: spam_event_11
+05-16 17:03:18.108  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.108  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.109  9953  9969 D AnalyticsSDK: Event: spam_event_12
+05-16 17:03:18.109  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.109  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.113  9953  9969 D AnalyticsSDK: Event: spam_event_13
+05-16 17:03:18.113  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.113  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.114  9953  9969 D AnalyticsSDK: Event: spam_event_14
+05-16 17:03:18.114  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.114  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.121  9953  9969 D AnalyticsSDK: Event: spam_event_15
+05-16 17:03:18.121  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.121  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.124  9953  9969 D AnalyticsSDK: Event: spam_event_16
+05-16 17:03:18.124  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.124  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.125  9953  9969 D AnalyticsSDK: Event: spam_event_17
+05-16 17:03:18.125  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.125  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.125  9953  9969 D AnalyticsSDK: Event: spam_event_18
+05-16 17:03:18.125  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.125  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.127  9953  9969 D AnalyticsSDK: Event: spam_event_19
+05-16 17:03:18.127  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.127  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.128  9953  9969 D AnalyticsSDK: Event: spam_event_20
+05-16 17:03:18.128  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.128  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.131  9953  9969 D AnalyticsSDK: Event: spam_event_21
+05-16 17:03:18.131  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.131  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.140  9953  9969 D AnalyticsSDK: Event: spam_event_22
+05-16 17:03:18.140  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.140  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.140  9953  9969 D AnalyticsSDK: Event: spam_event_23
+05-16 17:03:18.140  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.140  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.141  9953  9969 D AnalyticsSDK: Event: spam_event_24
+05-16 17:03:18.141  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.141  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.144  9953  9969 D AnalyticsSDK: Event: spam_event_25
+05-16 17:03:18.144  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.144  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.144  9953  9969 D AnalyticsSDK: Event: spam_event_26
+05-16 17:03:18.144  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.144  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: Event: spam_event_27
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: Event: spam_event_28
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: Event: spam_event_29
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.145  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.146  9953  9969 D AnalyticsSDK: Event: spam_event_30
+05-16 17:03:18.146  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.146  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.146  9953  9969 D AnalyticsSDK: Event: spam_event_31
+05-16 17:03:18.146  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.146  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.149  9953  9969 D AnalyticsSDK: Event: spam_event_32
+05-16 17:03:18.149  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.149  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.150  9953  9969 D AnalyticsSDK: Event: spam_event_33
+05-16 17:03:18.150  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.150  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.157  9953  9969 D AnalyticsSDK: Event: spam_event_34
+05-16 17:03:18.157  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.157  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.157  9953  9969 D AnalyticsSDK: Event: spam_event_35
+05-16 17:03:18.157  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.157  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.158  9953  9969 D AnalyticsSDK: Event: spam_event_36
+05-16 17:03:18.158  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.158  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.159  9953  9969 D AnalyticsSDK: Event: spam_event_37
+05-16 17:03:18.159  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.159  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.162  9953  9969 D AnalyticsSDK: Event: spam_event_38
+05-16 17:03:18.162  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.162  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.165  9953  9969 D AnalyticsSDK: Event: spam_event_39
+05-16 17:03:18.165  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.165  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.167  9953  9969 D AnalyticsSDK: Event: spam_event_40
+05-16 17:03:18.167  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.167  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.169  9953  9969 D AnalyticsSDK: Event: spam_event_41
+05-16 17:03:18.169  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.169  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.170  9953  9969 D AnalyticsSDK: Event: spam_event_42
+05-16 17:03:18.170  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.170  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.170  9953  9969 D AnalyticsSDK: Event: spam_event_43
+05-16 17:03:18.170  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.170  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: Event: spam_event_44
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: Event: spam_event_45
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: Event: spam_event_46
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.171  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.172  9953  9969 D AnalyticsSDK: Event: spam_event_47
+05-16 17:03:18.172  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.172  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.175  9953  9969 D AnalyticsSDK: Event: spam_event_48
+05-16 17:03:18.175  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.175  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.177  9953  9969 D AnalyticsSDK: Event: spam_event_49
+05-16 17:03:18.177  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.177  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.178  9953  9969 D AnalyticsSDK: Event: spam_event_50
+05-16 17:03:18.178  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.178  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.178  9953  9969 D AnalyticsSDK: Event: spam_event_51
+05-16 17:03:18.178  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.178  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.179  9953  9969 D AnalyticsSDK: Event: spam_event_52
+05-16 17:03:18.179  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.179  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.181  9953  9969 D AnalyticsSDK: Event: spam_event_53
+05-16 17:03:18.181  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.181  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.183  9953  9969 D AnalyticsSDK: Event: spam_event_54
+05-16 17:03:18.183  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.183  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: Event: spam_event_55
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: Event: spam_event_56
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: Event: spam_event_57
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.186  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Event: spam_event_58
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Event: spam_event_59
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Event: spam_event_60
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Event: spam_event_61
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.187  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.188  9953  9969 D AnalyticsSDK: Event: spam_event_62
+05-16 17:03:18.188  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.188  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.188  9953  9969 D AnalyticsSDK: Event: spam_event_63
+05-16 17:03:18.188  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.188  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.190  9953  9969 D AnalyticsSDK: Event: spam_event_64
+05-16 17:03:18.190  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.190  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.191  9953  9969 D AnalyticsSDK: Event: spam_event_65
+05-16 17:03:18.191  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.191  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.192  9953  9969 D AnalyticsSDK: Event: spam_event_66
+05-16 17:03:18.192  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.192  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.193  9953  9969 D AnalyticsSDK: Event: spam_event_67
+05-16 17:03:18.193  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.193  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.197  9953  9969 D AnalyticsSDK: Event: spam_event_68
+05-16 17:03:18.197  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.197  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.197  9953  9969 D AnalyticsSDK: Event: spam_event_69
+05-16 17:03:18.197  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.197  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.198  9953  9969 D AnalyticsSDK: Event: spam_event_70
+05-16 17:03:18.198  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.198  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.199  9953  9969 D AnalyticsSDK: Event: spam_event_71
+05-16 17:03:18.199  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.199  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.200  9953  9969 D AnalyticsSDK: Event: spam_event_72
+05-16 17:03:18.200  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.200  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.200  9953  9969 D AnalyticsSDK: Event: spam_event_73
+05-16 17:03:18.200  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.200  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.201  9953  9969 D AnalyticsSDK: Event: spam_event_74
+05-16 17:03:18.201  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.201  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.202  9953  9969 D AnalyticsSDK: Event: spam_event_75
+05-16 17:03:18.202  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.202  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.202  9953  9969 D AnalyticsSDK: Event: spam_event_76
+05-16 17:03:18.202  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.202  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.203  9953  9969 D AnalyticsSDK: Event: spam_event_77
+05-16 17:03:18.203  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.203  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.206  9953  9969 D AnalyticsSDK: Event: spam_event_78
+05-16 17:03:18.206  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.206  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.207  9953  9969 D AnalyticsSDK: Event: spam_event_79
+05-16 17:03:18.207  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.207  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: Event: spam_event_80
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: Event: spam_event_81
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: Event: spam_event_82
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.209  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.210  9953  9969 D AnalyticsSDK: Event: spam_event_83
+05-16 17:03:18.210  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.210  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.211  9953  9969 D AnalyticsSDK: Event: spam_event_84
+05-16 17:03:18.211  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.211  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.212  9953  9969 D AnalyticsSDK: Event: spam_event_85
+05-16 17:03:18.212  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.212  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.213  9953  9969 D AnalyticsSDK: Event: spam_event_86
+05-16 17:03:18.213  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.213  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.215  9953  9969 D AnalyticsSDK: Event: spam_event_87
+05-16 17:03:18.215  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.215  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.218  9953  9969 D AnalyticsSDK: Event: spam_event_88
+05-16 17:03:18.218  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.218  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.219  9953  9969 D AnalyticsSDK: Event: spam_event_89
+05-16 17:03:18.219  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.219  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.220  9953  9969 D AnalyticsSDK: Event: spam_event_90
+05-16 17:03:18.220  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.220  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.221  9953  9969 D AnalyticsSDK: Event: spam_event_91
+05-16 17:03:18.221  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.221  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.223  9953  9994 D AnalyticsSDK: Saved event to database: spam_event_3
+05-16 17:03:18.225  9953  9969 D AnalyticsSDK: Event: spam_event_92
+05-16 17:03:18.225  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.225  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.226  9953  9969 D AnalyticsSDK: Event: spam_event_93
+05-16 17:03:18.226  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.226  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.234  9953  9969 D AnalyticsSDK: Event: spam_event_94
+05-16 17:03:18.234  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.234  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.235  9953  9969 D AnalyticsSDK: Event: spam_event_95
+05-16 17:03:18.235  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.235  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.236  9953  9969 D AnalyticsSDK: Event: spam_event_96
+05-16 17:03:18.236  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.236  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.237  9953  9997 D AnalyticsSDK: Saved event to database: spam_event_1
+05-16 17:03:18.238  9953  9969 D AnalyticsSDK: Event: spam_event_97
+05-16 17:03:18.238  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.238  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.240  9953  9969 D AnalyticsSDK: Event: spam_event_98
+05-16 17:03:18.240  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.240  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.245  9953  9969 D AnalyticsSDK: Event: spam_event_99
+05-16 17:03:18.245  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.245  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.245  9953  9969 D AnalyticsSDK: Event: spam_event_100
+05-16 17:03:18.245  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.245  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.246  9953  9969 D AnalyticsSDK: Event: spam_event_101
+05-16 17:03:18.246  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.246  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.247  9953  9969 D AnalyticsSDK: Event: spam_event_102
+05-16 17:03:18.247  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.247  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.249  9953  9969 D AnalyticsSDK: Event: spam_event_103
+05-16 17:03:18.249  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.249  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.251  9953  9969 D AnalyticsSDK: Event: spam_event_104
+05-16 17:03:18.251  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.251  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.251  9953  9969 D AnalyticsSDK: Event: spam_event_105
+05-16 17:03:18.251  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.251  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.254  9953  9969 D AnalyticsSDK: Event: spam_event_106
+05-16 17:03:18.254  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.254  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.256  9953  9969 D AnalyticsSDK: Event: spam_event_107
+05-16 17:03:18.256  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.256  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.257  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_5
+05-16 17:03:18.257  9953  9969 D AnalyticsSDK: Event: spam_event_108
+05-16 17:03:18.257  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.257  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.260  9953  9969 D AnalyticsSDK: Event: spam_event_109
+05-16 17:03:18.260  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.260  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.260  9953  9969 D AnalyticsSDK: Event: spam_event_110
+05-16 17:03:18.260  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.260  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.261  9953  9969 D AnalyticsSDK: Event: spam_event_111
+05-16 17:03:18.261  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.261  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.262  9953  9969 D AnalyticsSDK: Event: spam_event_112
+05-16 17:03:18.262  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.262  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.262  9953  9969 D AnalyticsSDK: Event: spam_event_113
+05-16 17:03:18.262  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.262  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.263  9953  9969 D AnalyticsSDK: Event: spam_event_114
+05-16 17:03:18.263  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.263  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Event: spam_event_115
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Event: spam_event_116
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Event: spam_event_117
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Event: spam_event_118
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.264  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.266  9953  9969 D AnalyticsSDK: Event: spam_event_119
+05-16 17:03:18.266  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.266  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.266  9953  9969 D AnalyticsSDK: Event: spam_event_120
+05-16 17:03:18.266  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.266  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.267  9953  9969 D AnalyticsSDK: Event: spam_event_121
+05-16 17:03:18.267  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.267  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.268  9953  9969 D AnalyticsSDK: Event: spam_event_122
+05-16 17:03:18.268  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.268  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: Event: spam_event_123
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: Event: spam_event_124
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: Event: spam_event_125
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.271  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.275  9953  9969 D AnalyticsSDK: Event: spam_event_126
+05-16 17:03:18.275  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.275  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.276  9953  9969 D AnalyticsSDK: Event: spam_event_127
+05-16 17:03:18.276  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.276  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.277  9953  9969 D AnalyticsSDK: Event: spam_event_128
+05-16 17:03:18.277  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.277  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.277  9953  9969 D AnalyticsSDK: Event: spam_event_129
+05-16 17:03:18.277  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.277  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.278  9953  9969 D AnalyticsSDK: Event: spam_event_130
+05-16 17:03:18.278  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.278  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.279  9953  9969 D AnalyticsSDK: Event: spam_event_131
+05-16 17:03:18.279  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.279  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.283  9953  9986 D AnalyticsSDK: Saved event to database: spam_event_7
+05-16 17:03:18.284  9953  9969 D AnalyticsSDK: Event: spam_event_132
+05-16 17:03:18.284  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.284  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.285  9953  9969 D AnalyticsSDK: Event: spam_event_133
+05-16 17:03:18.285  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.285  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.285  9953  9969 D AnalyticsSDK: Event: spam_event_134
+05-16 17:03:18.285  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.285  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.287  9953  9969 D AnalyticsSDK: Event: spam_event_135
+05-16 17:03:18.287  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.287  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.290  9953  9969 D AnalyticsSDK: Event: spam_event_136
+05-16 17:03:18.290  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.290  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.291  9953  9969 D AnalyticsSDK: Event: spam_event_137
+05-16 17:03:18.291  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.291  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.291  9953  9969 D AnalyticsSDK: Event: spam_event_138
+05-16 17:03:18.291  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.291  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.293  9953  9969 D AnalyticsSDK: Event: spam_event_139
+05-16 17:03:18.293  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.293  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.294  9953  9969 D AnalyticsSDK: Event: spam_event_140
+05-16 17:03:18.294  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.294  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.294  9953  9969 D AnalyticsSDK: Event: spam_event_141
+05-16 17:03:18.294  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.294  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.295  9953  9969 D AnalyticsSDK: Event: spam_event_142
+05-16 17:03:18.295  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.295  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.297  9953  9969 D AnalyticsSDK: Event: spam_event_143
+05-16 17:03:18.297  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.297  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.297  9953  9969 D AnalyticsSDK: Event: spam_event_144
+05-16 17:03:18.297  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.297  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.303  9953  9975 I .analytics.test: hiddenapi: Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-><init>(Ljava/lang/Class;I)V (runtime_flags=0, domain=core-platform, api=unsupported) from Lretrofit2/Platform; (domain=app) using reflection: allowed
+05-16 17:03:18.303  9953  9969 D AnalyticsSDK: Event: spam_event_145
+05-16 17:03:18.303  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.303  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.304  9953  9969 D AnalyticsSDK: Event: spam_event_146
+05-16 17:03:18.304  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.304  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.304  9953  9969 D AnalyticsSDK: Event: spam_event_147
+05-16 17:03:18.304  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.304  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.307  9953  9969 D AnalyticsSDK: Event: spam_event_148
+05-16 17:03:18.307  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.307  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.308  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_2
+05-16 17:03:18.308  9953  9969 D AnalyticsSDK: Event: spam_event_149
+05-16 17:03:18.308  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.308  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.310  5734  5793 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+05-16 17:03:18.310  9953  9969 D AnalyticsSDK: Event: spam_event_150
+05-16 17:03:18.310  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.310  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.311  9953  9969 D AnalyticsSDK: Event: spam_event_151
+05-16 17:03:18.311  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.311  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.311  9953  9969 D AnalyticsSDK: Event: spam_event_152
+05-16 17:03:18.311  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.311  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.313  9953  9969 D AnalyticsSDK: Event: spam_event_153
+05-16 17:03:18.313  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.313  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.314  9953  9969 D AnalyticsSDK: Event: spam_event_154
+05-16 17:03:18.314  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.314  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.314  9953  9969 D AnalyticsSDK: Event: spam_event_155
+05-16 17:03:18.314  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.314  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.316   877  1386 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-16 17:03:18.316  9953  9969 D AnalyticsSDK: Event: spam_event_156
+05-16 17:03:18.316  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.316  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.317  5734  5793 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+05-16 17:03:18.321  9953 10001 D AnalyticsSDK: Saved event to database: spam_event_10
+05-16 17:03:18.321  9953  9969 D AnalyticsSDK: Event: spam_event_157
+05-16 17:03:18.321  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.321  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.322  9953  9969 D AnalyticsSDK: Event: spam_event_158
+05-16 17:03:18.322  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.322  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.325  9953  9969 D AnalyticsSDK: Event: spam_event_159
+05-16 17:03:18.325  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.325  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.326  9953  9969 D AnalyticsSDK: Event: spam_event_160
+05-16 17:03:18.326  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.326  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.327  9953  9969 D AnalyticsSDK: Event: spam_event_161
+05-16 17:03:18.327  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.327  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.327  9953  9969 D AnalyticsSDK: Event: spam_event_162
+05-16 17:03:18.327  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.327  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.329  9953  9969 D AnalyticsSDK: Event: spam_event_163
+05-16 17:03:18.329  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.329  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.330  9953  9969 D AnalyticsSDK: Event: spam_event_164
+05-16 17:03:18.330  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.330  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.334  9953  9969 D AnalyticsSDK: Event: spam_event_165
+05-16 17:03:18.334  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.334  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.334  9953  9969 D AnalyticsSDK: Event: spam_event_166
+05-16 17:03:18.334  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.334  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: Event: spam_event_167
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: Event: spam_event_168
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: Event: spam_event_169
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.335  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.337  9953  9969 D AnalyticsSDK: Event: spam_event_170
+05-16 17:03:18.337  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.337  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.339  9953  9969 D AnalyticsSDK: Event: spam_event_171
+05-16 17:03:18.339  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.339  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.341  9953  9969 D AnalyticsSDK: Event: spam_event_172
+05-16 17:03:18.341  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.341  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.342  9953  9969 D AnalyticsSDK: Event: spam_event_173
+05-16 17:03:18.342  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.342  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.343  9953  9969 D AnalyticsSDK: Event: spam_event_174
+05-16 17:03:18.343  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.343  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.344  9953  9969 D AnalyticsSDK: Event: spam_event_175
+05-16 17:03:18.344  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.344  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.346  9953  9969 D AnalyticsSDK: Event: spam_event_176
+05-16 17:03:18.346  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.346  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.346  9953  9984 D AnalyticsSDK: Saved event to database: spam_event_9
+05-16 17:03:18.350  9953  9969 D AnalyticsSDK: Event: spam_event_177
+05-16 17:03:18.350  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.350  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.351  9953  9969 D AnalyticsSDK: Event: spam_event_178
+05-16 17:03:18.351  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.351  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.353  9953  9969 D AnalyticsSDK: Event: spam_event_179
+05-16 17:03:18.353  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.353  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.354  9953  9969 D AnalyticsSDK: Event: spam_event_180
+05-16 17:03:18.354  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.354  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.355  9953  9969 D AnalyticsSDK: Event: spam_event_181
+05-16 17:03:18.355  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.355  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.355  9953  9969 D AnalyticsSDK: Event: spam_event_182
+05-16 17:03:18.355  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.355  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.357  9953  9969 D AnalyticsSDK: Event: spam_event_183
+05-16 17:03:18.357  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.357  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.358  9953  9969 D AnalyticsSDK: Event: spam_event_184
+05-16 17:03:18.358  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.358  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.359  9953  9969 D AnalyticsSDK: Event: spam_event_185
+05-16 17:03:18.359  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.359  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.363  9953  9969 D AnalyticsSDK: Event: spam_event_186
+05-16 17:03:18.363  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.363  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.365  9953  9969 D AnalyticsSDK: Event: spam_event_187
+05-16 17:03:18.365  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.365  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.365  9953  9969 D AnalyticsSDK: Event: spam_event_188
+05-16 17:03:18.365  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.365  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.366  9953  9969 D AnalyticsSDK: Event: spam_event_189
+05-16 17:03:18.366  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.366  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.367  9953  9969 D AnalyticsSDK: Event: spam_event_190
+05-16 17:03:18.367  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.367  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.368  9953  9986 D AnalyticsSDK: Saved event to database: spam_event_6
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: Event: spam_event_191
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: Event: spam_event_192
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: Event: spam_event_193
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.372  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.374  9953  9969 D AnalyticsSDK: Event: spam_event_194
+05-16 17:03:18.374  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.374  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.375  9953  9969 D AnalyticsSDK: Event: spam_event_195
+05-16 17:03:18.375  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.375  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.377  9953  9969 D AnalyticsSDK: Event: spam_event_196
+05-16 17:03:18.377  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.377  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.377  9953  9969 D AnalyticsSDK: Event: spam_event_197
+05-16 17:03:18.377  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.377  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.381  9953  9969 D AnalyticsSDK: Event: spam_event_198
+05-16 17:03:18.381  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.381  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.382  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_8
+05-16 17:03:18.383  9953  9969 D AnalyticsSDK: Event: spam_event_199
+05-16 17:03:18.383  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.383  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.384  9953  9969 D AnalyticsSDK: Event: spam_event_200
+05-16 17:03:18.384  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.384  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.384  9953  9969 D AnalyticsSDK: Event: spam_event_201
+05-16 17:03:18.384  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.384  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.386  9953  9969 D AnalyticsSDK: Event: spam_event_202
+05-16 17:03:18.386  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.386  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.387  9953  9969 D AnalyticsSDK: Event: spam_event_203
+05-16 17:03:18.387  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.387  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.390  9953  9969 D AnalyticsSDK: Event: spam_event_204
+05-16 17:03:18.390  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.390  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.394  9953  9969 D AnalyticsSDK: Event: spam_event_205
+05-16 17:03:18.394  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.394  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.394  9953  9969 D AnalyticsSDK: Event: spam_event_206
+05-16 17:03:18.394  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.394  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.398  9953  9969 D AnalyticsSDK: Event: spam_event_207
+05-16 17:03:18.398  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.398  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.399  9953  9969 D AnalyticsSDK: Event: spam_event_208
+05-16 17:03:18.399  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.399  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.400  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_4
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: Event: spam_event_209
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: Event: spam_event_210
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: Event: spam_event_211
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.405  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.406  9953  9969 D AnalyticsSDK: Event: spam_event_212
+05-16 17:03:18.406  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.406  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.414  9953  9969 D AnalyticsSDK: Event: spam_event_213
+05-16 17:03:18.414  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.414  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.414  9953  9969 D AnalyticsSDK: Event: spam_event_214
+05-16 17:03:18.414  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.414  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: Event: spam_event_215
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: Event: spam_event_216
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: Event: spam_event_217
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.417  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.418  9953  9969 D AnalyticsSDK: Event: spam_event_218
+05-16 17:03:18.418  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.418  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.419  9953  9969 D AnalyticsSDK: Event: spam_event_219
+05-16 17:03:18.419  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.419  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.423  9953  9969 D AnalyticsSDK: Event: spam_event_220
+05-16 17:03:18.423  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.423  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.423  9953  9969 D AnalyticsSDK: Event: spam_event_221
+05-16 17:03:18.423  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.423  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.425  9953  9969 D AnalyticsSDK: Event: spam_event_222
+05-16 17:03:18.425  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.425  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.426  9953  9969 D AnalyticsSDK: Event: spam_event_223
+05-16 17:03:18.426  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.426  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.427  9953  9969 D AnalyticsSDK: Event: spam_event_224
+05-16 17:03:18.427  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.427  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.427  9953  9969 D AnalyticsSDK: Event: spam_event_225
+05-16 17:03:18.427  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.427  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.429  9953  9969 D AnalyticsSDK: Event: spam_event_226
+05-16 17:03:18.429  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.429  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Event: spam_event_227
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Event: spam_event_228
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Event: spam_event_229
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Event: spam_event_230
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Event: spam_event_231
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.430  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.432  9953  9969 D AnalyticsSDK: Event: spam_event_232
+05-16 17:03:18.432  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.432  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.433  9953  9969 D AnalyticsSDK: Event: spam_event_233
+05-16 17:03:18.433  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.433  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.433  9953  9986 D AnalyticsSDK: Saved event to database: spam_event_13
+05-16 17:03:18.434  9953  9969 D AnalyticsSDK: Event: spam_event_234
+05-16 17:03:18.434  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.434  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.435  9953  9969 D AnalyticsSDK: Event: spam_event_235
+05-16 17:03:18.435  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.435  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.436  9953  9969 D AnalyticsSDK: Event: spam_event_236
+05-16 17:03:18.436  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.436  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.437  9953  9969 D AnalyticsSDK: Event: spam_event_237
+05-16 17:03:18.437  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.437  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.440  9953  9969 D AnalyticsSDK: Event: spam_event_238
+05-16 17:03:18.440  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.440  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.440  9953  9969 D AnalyticsSDK: Event: spam_event_239
+05-16 17:03:18.440  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.440  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.441  9953  9969 D AnalyticsSDK: Event: spam_event_240
+05-16 17:03:18.441  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.441  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.442  9953  9969 D AnalyticsSDK: Event: spam_event_241
+05-16 17:03:18.442  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.442  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.443  9953  9969 D AnalyticsSDK: Event: spam_event_242
+05-16 17:03:18.443  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.443  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.446  9953  9969 D AnalyticsSDK: Event: spam_event_243
+05-16 17:03:18.446  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.446  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.446  9953  9969 D AnalyticsSDK: Event: spam_event_244
+05-16 17:03:18.446  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.446  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: Event: spam_event_245
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: Event: spam_event_246
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: Event: spam_event_247
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.447  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.449  9953  9969 D AnalyticsSDK: Event: spam_event_248
+05-16 17:03:18.449  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.449  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.451  9953  9969 D AnalyticsSDK: Event: spam_event_249
+05-16 17:03:18.451  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.451  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.454  9953  9969 D AnalyticsSDK: Event: spam_event_250
+05-16 17:03:18.454  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.454  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.455  9953  9969 D AnalyticsSDK: Event: spam_event_251
+05-16 17:03:18.455  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.455  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: Event: spam_event_252
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: Event: spam_event_253
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: Event: spam_event_254
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.456  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.458  9953  9969 D AnalyticsSDK: Event: spam_event_255
+05-16 17:03:18.458  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.458  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.459  9953  9969 D AnalyticsSDK: Event: spam_event_256
+05-16 17:03:18.459  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.459  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.460  9953  9996 D AnalyticsSDK: Saved event to database: spam_event_11
+05-16 17:03:18.460  9953  9969 D AnalyticsSDK: Event: spam_event_257
+05-16 17:03:18.460  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.460  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.462  9953  9969 D AnalyticsSDK: Event: spam_event_258
+05-16 17:03:18.462  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.462  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.463  9953  9969 D AnalyticsSDK: Event: spam_event_259
+05-16 17:03:18.463  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.463  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.463  9953  9969 D AnalyticsSDK: Event: spam_event_260
+05-16 17:03:18.463  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.463  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.465  9953  9969 D AnalyticsSDK: Event: spam_event_261
+05-16 17:03:18.465  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.465  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.468  9953  9969 D AnalyticsSDK: Event: spam_event_262
+05-16 17:03:18.468  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.468  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.469  9953  9969 D AnalyticsSDK: Event: spam_event_263
+05-16 17:03:18.469  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.469  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.470  9953  9969 D AnalyticsSDK: Event: spam_event_264
+05-16 17:03:18.470  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.470  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.470  9953  9969 D AnalyticsSDK: Event: spam_event_265
+05-16 17:03:18.470  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.470  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.473  9953  9969 D AnalyticsSDK: Event: spam_event_266
+05-16 17:03:18.473  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.473  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.474  9953  9969 D AnalyticsSDK: Event: spam_event_267
+05-16 17:03:18.474  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.474  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.475  9953  9969 D AnalyticsSDK: Event: spam_event_268
+05-16 17:03:18.475  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.475  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.476  9953  9969 D AnalyticsSDK: Event: spam_event_269
+05-16 17:03:18.476  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.476  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.477  9953  9969 D AnalyticsSDK: Event: spam_event_270
+05-16 17:03:18.477  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.477  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.478  9953  9969 D AnalyticsSDK: Event: spam_event_271
+05-16 17:03:18.478  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.478  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.479  9953  9969 D AnalyticsSDK: Event: spam_event_272
+05-16 17:03:18.479  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.479  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.480  9953  9969 D AnalyticsSDK: Event: spam_event_273
+05-16 17:03:18.480  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.480  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.481  9953  9969 D AnalyticsSDK: Event: spam_event_274
+05-16 17:03:18.481  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.481  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.483  9953  9969 D AnalyticsSDK: Event: spam_event_275
+05-16 17:03:18.483  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.483  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Event: spam_event_276
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Event: spam_event_277
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.486  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_12
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Event: spam_event_278
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Event: spam_event_279
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.486  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.487  9953  9969 D AnalyticsSDK: Event: spam_event_280
+05-16 17:03:18.487  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.487  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.487  9953  9969 D AnalyticsSDK: Event: spam_event_281
+05-16 17:03:18.487  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.487  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.489  9953  9969 D AnalyticsSDK: Event: spam_event_282
+05-16 17:03:18.489  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.489  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.489  9953  9969 D AnalyticsSDK: Event: spam_event_283
+05-16 17:03:18.489  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.489  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.490  9953  9969 D AnalyticsSDK: Event: spam_event_284
+05-16 17:03:18.490  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.490  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.491  9953  9969 D AnalyticsSDK: Event: spam_event_285
+05-16 17:03:18.491  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.491  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.492  9953  9969 D AnalyticsSDK: Event: spam_event_286
+05-16 17:03:18.492  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.492  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.492  9953  9969 D AnalyticsSDK: Event: spam_event_287
+05-16 17:03:18.492  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.492  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.493  9953  9969 D AnalyticsSDK: Event: spam_event_288
+05-16 17:03:18.493  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.493  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.493  9953  9969 D AnalyticsSDK: Event: spam_event_289
+05-16 17:03:18.493  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.493  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.494  9953  9969 D AnalyticsSDK: Event: spam_event_290
+05-16 17:03:18.494  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.494  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.494  9953  9969 D AnalyticsSDK: Event: spam_event_291
+05-16 17:03:18.494  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.494  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.495  9953  9969 D AnalyticsSDK: Event: spam_event_292
+05-16 17:03:18.495  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.495  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.498  9953  9969 D AnalyticsSDK: Event: spam_event_293
+05-16 17:03:18.498  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.498  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.499  9953  9969 D AnalyticsSDK: Event: spam_event_294
+05-16 17:03:18.499  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.499  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Event: spam_event_295
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Event: spam_event_296
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Event: spam_event_297
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Event: spam_event_298
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Event: spam_event_299
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.500  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.502  9953  9976 D AnalyticsSDK: Saved event to database: spam_event_16
+05-16 17:03:18.504  9953  9969 D AnalyticsSDK: Event: spam_event_300
+05-16 17:03:18.504  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.504  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.504  9953  9969 D AnalyticsSDK: Event: spam_event_301
+05-16 17:03:18.504  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.504  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.506  9953  9969 D AnalyticsSDK: Event: spam_event_302
+05-16 17:03:18.506  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.506  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.507  9953  9969 D AnalyticsSDK: Event: spam_event_303
+05-16 17:03:18.507  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.507  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.508  9953  9969 D AnalyticsSDK: Event: spam_event_304
+05-16 17:03:18.508  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.508  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.511  9953  9969 D AnalyticsSDK: Event: spam_event_305
+05-16 17:03:18.511  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.511  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.513  9953  9969 D AnalyticsSDK: Event: spam_event_306
+05-16 17:03:18.513  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.513  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.514  9953  9969 D AnalyticsSDK: Event: spam_event_307
+05-16 17:03:18.514  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.514  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.515  9953  9969 D AnalyticsSDK: Event: spam_event_308
+05-16 17:03:18.515  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.515  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.518  9953  9969 D AnalyticsSDK: Event: spam_event_309
+05-16 17:03:18.518  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.518  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.520  9953  9969 D AnalyticsSDK: Event: spam_event_310
+05-16 17:03:18.520  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.520  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.525  9953  9969 D AnalyticsSDK: Event: spam_event_311
+05-16 17:03:18.525  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.525  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.525  9953  9969 D AnalyticsSDK: Event: spam_event_312
+05-16 17:03:18.525  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.525  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.526  9953  9969 D AnalyticsSDK: Event: spam_event_313
+05-16 17:03:18.526  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.526  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.528  9953  9969 D AnalyticsSDK: Event: spam_event_314
+05-16 17:03:18.528  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.528  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: Event: spam_event_315
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: Event: spam_event_316
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: Event: spam_event_317
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.531  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.532  9953  9969 D AnalyticsSDK: Event: spam_event_318
+05-16 17:03:18.532  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.532  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.538  9953  9969 D AnalyticsSDK: Event: spam_event_319
+05-16 17:03:18.538  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.538  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.538  9953  9991 D AnalyticsSDK: Saved event to database: spam_event_14
+05-16 17:03:18.539  9953  9969 D AnalyticsSDK: Event: spam_event_320
+05-16 17:03:18.539  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.539  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.543  9953  9969 D AnalyticsSDK: Event: spam_event_321
+05-16 17:03:18.543  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.543  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.544  9953  9969 D AnalyticsSDK: Event: spam_event_322
+05-16 17:03:18.544  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.544  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.545  9953  9969 D AnalyticsSDK: Event: spam_event_323
+05-16 17:03:18.545  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.545  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.548  9953  9993 D AnalyticsSDK: Saved event to database: spam_event_15
+05-16 17:03:18.549  9953  9969 D AnalyticsSDK: Event: spam_event_324
+05-16 17:03:18.549  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.549  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.549  9953  9969 D AnalyticsSDK: Event: spam_event_325
+05-16 17:03:18.549  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.549  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.552  9953  9969 D AnalyticsSDK: Event: spam_event_326
+05-16 17:03:18.552  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.552  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.553  9953  9969 D AnalyticsSDK: Event: spam_event_327
+05-16 17:03:18.553  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.553  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.554  9953  9969 D AnalyticsSDK: Event: spam_event_328
+05-16 17:03:18.554  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.554  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.556  9953  9969 D AnalyticsSDK: Event: spam_event_329
+05-16 17:03:18.556  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.556  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.558  9953  9969 D AnalyticsSDK: Event: spam_event_330
+05-16 17:03:18.558  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.558  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.558  9953  9969 D AnalyticsSDK: Event: spam_event_331
+05-16 17:03:18.558  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.558  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.559  9953  9969 D AnalyticsSDK: Event: spam_event_332
+05-16 17:03:18.559  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.559  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.562  9953  9969 D AnalyticsSDK: Event: spam_event_333
+05-16 17:03:18.562  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.562  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.565  9953  9969 D AnalyticsSDK: Event: spam_event_334
+05-16 17:03:18.565  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.565  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.565  9953  9969 D AnalyticsSDK: Event: spam_event_335
+05-16 17:03:18.565  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.565  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.566  9953  9969 D AnalyticsSDK: Event: spam_event_336
+05-16 17:03:18.566  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.566  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.569  9953  9969 D AnalyticsSDK: Event: spam_event_337
+05-16 17:03:18.569  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.569  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.572  9953  9969 D AnalyticsSDK: Event: spam_event_338
+05-16 17:03:18.572  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.572  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.572  9953  9969 D AnalyticsSDK: Event: spam_event_339
+05-16 17:03:18.572  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.572  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.573  9953  9969 D AnalyticsSDK: Event: spam_event_340
+05-16 17:03:18.573  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.573  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.575  9953  9969 D AnalyticsSDK: Event: spam_event_341
+05-16 17:03:18.575  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.575  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.575  9953  9969 D AnalyticsSDK: Event: spam_event_342
+05-16 17:03:18.575  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.575  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.576  9953  9987 D AnalyticsSDK: Saved event to database: spam_event_20
+05-16 17:03:18.582  9953  9969 D AnalyticsSDK: Event: spam_event_343
+05-16 17:03:18.582  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.582  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.584  9953  9969 D AnalyticsSDK: Event: spam_event_344
+05-16 17:03:18.584  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.584  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.584  9953  9969 D AnalyticsSDK: Event: spam_event_345
+05-16 17:03:18.584  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.584  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.585  9953  9969 D AnalyticsSDK: Event: spam_event_346
+05-16 17:03:18.585  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.585  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.585   877  1109 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+05-16 17:03:18.587  9953  9969 D AnalyticsSDK: Event: spam_event_347
+05-16 17:03:18.587  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.587  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.589  9953  9969 D AnalyticsSDK: Event: spam_event_348
+05-16 17:03:18.589  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.589  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.591  9953  9969 D AnalyticsSDK: Event: spam_event_349
+05-16 17:03:18.591  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.591  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.592  9953  9969 D AnalyticsSDK: Event: spam_event_350
+05-16 17:03:18.592  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.592  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.593  9953  9969 D AnalyticsSDK: Event: spam_event_351
+05-16 17:03:18.593  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.593  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.594  9953  9969 D AnalyticsSDK: Event: spam_event_352
+05-16 17:03:18.594  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.594  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.595  9953  9969 D AnalyticsSDK: Event: spam_event_353
+05-16 17:03:18.595  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.595  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.595  9953  9969 D AnalyticsSDK: Event: spam_event_354
+05-16 17:03:18.595  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.595  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: Event: spam_event_355
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: Event: spam_event_356
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: Event: spam_event_357
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.597  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.598  9953  9969 D AnalyticsSDK: Event: spam_event_358
+05-16 17:03:18.598  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.598  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.599  9953  9969 D AnalyticsSDK: Event: spam_event_359
+05-16 17:03:18.599  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.599  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.603  9953  9969 D AnalyticsSDK: Event: spam_event_360
+05-16 17:03:18.603  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.603  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.604  9953  9969 D AnalyticsSDK: Event: spam_event_361
+05-16 17:03:18.604  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.604  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.604  9953  9969 D AnalyticsSDK: Event: spam_event_362
+05-16 17:03:18.604  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.604  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.606  9953  9969 D AnalyticsSDK: Event: spam_event_363
+05-16 17:03:18.606  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.606  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.606  9953  9969 D AnalyticsSDK: Event: spam_event_364
+05-16 17:03:18.606  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.606  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.607  9953  9969 D AnalyticsSDK: Event: spam_event_365
+05-16 17:03:18.607  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.607  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.609  9953  9969 D AnalyticsSDK: Event: spam_event_366
+05-16 17:03:18.609  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.609  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.610  9953  9969 D AnalyticsSDK: Event: spam_event_367
+05-16 17:03:18.610  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.610  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.610  9953  9969 D AnalyticsSDK: Event: spam_event_368
+05-16 17:03:18.610  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.610  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.611  9953  9969 D AnalyticsSDK: Event: spam_event_369
+05-16 17:03:18.611  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.611  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.611  9953  9969 D AnalyticsSDK: Event: spam_event_370
+05-16 17:03:18.611  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.611  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.614  9953  9993 D AnalyticsSDK: Saved event to database: spam_event_23
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: Event: spam_event_371
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: Event: spam_event_372
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: Event: spam_event_373
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.618  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.619  9953  9969 D AnalyticsSDK: Event: spam_event_374
+05-16 17:03:18.619  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.619  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.621  9953  9969 D AnalyticsSDK: Event: spam_event_375
+05-16 17:03:18.621  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.621  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.622  9953  9969 D AnalyticsSDK: Event: spam_event_376
+05-16 17:03:18.622  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.622  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.627  9953  9969 D AnalyticsSDK: Event: spam_event_377
+05-16 17:03:18.627  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.627  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.628  9953  9969 D AnalyticsSDK: Event: spam_event_378
+05-16 17:03:18.628  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.628  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.629  9953  9969 D AnalyticsSDK: Event: spam_event_379
+05-16 17:03:18.629  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.629  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.630  9953  9969 D AnalyticsSDK: Event: spam_event_380
+05-16 17:03:18.630  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.630  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.630  9953  9969 D AnalyticsSDK: Event: spam_event_381
+05-16 17:03:18.630  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.630  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.632  9953  9969 D AnalyticsSDK: Event: spam_event_382
+05-16 17:03:18.632  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.632  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.634  9953  9969 D AnalyticsSDK: Event: spam_event_383
+05-16 17:03:18.634  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.634  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.634  9953  9969 D AnalyticsSDK: Event: spam_event_384
+05-16 17:03:18.634  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.634  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.635  9953  9969 D AnalyticsSDK: Event: spam_event_385
+05-16 17:03:18.635  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.635  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.636  9953  9969 D AnalyticsSDK: Event: spam_event_386
+05-16 17:03:18.636  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.636  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.638  9953  9969 D AnalyticsSDK: Event: spam_event_387
+05-16 17:03:18.638  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.638  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.639  9953  9969 D AnalyticsSDK: Event: spam_event_388
+05-16 17:03:18.639  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.639  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.640  9953  9969 D AnalyticsSDK: Event: spam_event_389
+05-16 17:03:18.640  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.640  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.645  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_24
+05-16 17:03:18.645  9953  9969 D AnalyticsSDK: Event: spam_event_390
+05-16 17:03:18.645  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.645  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.651  9953  9969 D AnalyticsSDK: Event: spam_event_391
+05-16 17:03:18.651  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.651  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.652  9953  9969 D AnalyticsSDK: Event: spam_event_392
+05-16 17:03:18.652  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.652  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.654  9953  9969 D AnalyticsSDK: Event: spam_event_393
+05-16 17:03:18.654  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.654  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.655  9953  9969 D AnalyticsSDK: Event: spam_event_394
+05-16 17:03:18.655  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.655  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.655  9953  9969 D AnalyticsSDK: Event: spam_event_395
+05-16 17:03:18.655  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.655  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.657  9953  9969 D AnalyticsSDK: Event: spam_event_396
+05-16 17:03:18.657  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.657  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.657  9953  9969 D AnalyticsSDK: Event: spam_event_397
+05-16 17:03:18.657  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.657  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.658  9953  9969 D AnalyticsSDK: Event: spam_event_398
+05-16 17:03:18.658  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.658  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.658  9953  9969 D AnalyticsSDK: Event: spam_event_399
+05-16 17:03:18.658  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.658  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.659  9953  9969 D AnalyticsSDK: Event: spam_event_400
+05-16 17:03:18.659  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.659  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.660  9953  9969 D AnalyticsSDK: Event: spam_event_401
+05-16 17:03:18.660  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.660  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.663  9953  9982 D AnalyticsSDK: Saved event to database: spam_event_26
+05-16 17:03:18.664  9953  9969 D AnalyticsSDK: Event: spam_event_402
+05-16 17:03:18.664  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.664  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.665  9953  9969 D AnalyticsSDK: Event: spam_event_403
+05-16 17:03:18.665  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.665  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.666  9953  9969 D AnalyticsSDK: Event: spam_event_404
+05-16 17:03:18.666  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.666  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.667  9953  9969 D AnalyticsSDK: Event: spam_event_405
+05-16 17:03:18.667  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.667  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.667  9953  9969 D AnalyticsSDK: Event: spam_event_406
+05-16 17:03:18.667  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.667  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.669  9953  9969 D AnalyticsSDK: Event: spam_event_407
+05-16 17:03:18.669  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.669  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.669  9953  9969 D AnalyticsSDK: Event: spam_event_408
+05-16 17:03:18.669  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.669  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.674  9953 10008 D AnalyticsSDK: Saved event to database: spam_event_25
+05-16 17:03:18.675  9953  9969 D AnalyticsSDK: Event: spam_event_409
+05-16 17:03:18.675  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.675  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.676  9953  9969 D AnalyticsSDK: Event: spam_event_410
+05-16 17:03:18.676  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.676  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.677  9953  9969 D AnalyticsSDK: Event: spam_event_411
+05-16 17:03:18.677  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.677  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.678  9953  9969 D AnalyticsSDK: Event: spam_event_412
+05-16 17:03:18.678  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.678  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.679  9953  9969 D AnalyticsSDK: Event: spam_event_413
+05-16 17:03:18.679  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.679  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.679  9953  9969 D AnalyticsSDK: Event: spam_event_414
+05-16 17:03:18.679  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.679  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.680  9953  9969 D AnalyticsSDK: Event: spam_event_415
+05-16 17:03:18.680  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.680  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.681  9953  9969 D AnalyticsSDK: Event: spam_event_416
+05-16 17:03:18.681  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.681  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.682  9953  9969 D AnalyticsSDK: Event: spam_event_417
+05-16 17:03:18.682  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.682  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.682  9953  9969 D AnalyticsSDK: Event: spam_event_418
+05-16 17:03:18.682  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.682  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.683  9953  9969 D AnalyticsSDK: Event: spam_event_419
+05-16 17:03:18.683  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.683  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.685  9953  9969 D AnalyticsSDK: Event: spam_event_420
+05-16 17:03:18.685  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.685  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.686  9953  9969 D AnalyticsSDK: Event: spam_event_421
+05-16 17:03:18.686  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.686  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.691  9953  9969 D AnalyticsSDK: Event: spam_event_422
+05-16 17:03:18.691  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.691  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.691  9953  9969 D AnalyticsSDK: Event: spam_event_423
+05-16 17:03:18.691  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.691  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.693  9953  9969 D AnalyticsSDK: Event: spam_event_424
+05-16 17:03:18.693  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.693  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.694  9953  9969 D AnalyticsSDK: Event: spam_event_425
+05-16 17:03:18.694  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.694  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.696  9953  9969 D AnalyticsSDK: Event: spam_event_426
+05-16 17:03:18.696  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.696  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.698  9953  9969 D AnalyticsSDK: Event: spam_event_427
+05-16 17:03:18.698  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.698  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.699  9953  9969 D AnalyticsSDK: Event: spam_event_428
+05-16 17:03:18.699  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.699  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.699  9953  9987 D AnalyticsSDK: Saved event to database: spam_event_17
+05-16 17:03:18.699  9953  9969 D AnalyticsSDK: Event: spam_event_429
+05-16 17:03:18.699  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.699  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.700  9953  9969 D AnalyticsSDK: Event: spam_event_430
+05-16 17:03:18.700  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.700  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.702  9953  9969 D AnalyticsSDK: Event: spam_event_431
+05-16 17:03:18.702  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.702  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.703  9953  9969 D AnalyticsSDK: Event: spam_event_432
+05-16 17:03:18.703  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.703  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.705  9953  9969 D AnalyticsSDK: Event: spam_event_433
+05-16 17:03:18.705  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.705  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.705  9953  9969 D AnalyticsSDK: Event: spam_event_434
+05-16 17:03:18.705  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.705  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.706  9953  9969 D AnalyticsSDK: Event: spam_event_435
+05-16 17:03:18.706  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.706  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.707  9953  9969 D AnalyticsSDK: Event: spam_event_436
+05-16 17:03:18.707  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.707  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.707  9953  9969 D AnalyticsSDK: Event: spam_event_437
+05-16 17:03:18.707  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.707  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.711  9953  9969 D AnalyticsSDK: Event: spam_event_438
+05-16 17:03:18.711  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.711  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.714  9953  9969 D AnalyticsSDK: Event: spam_event_439
+05-16 17:03:18.714  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.714  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.714  9953  9969 D AnalyticsSDK: Event: spam_event_440
+05-16 17:03:18.714  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.714  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.716  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_18
+05-16 17:03:18.717  9953  9969 D AnalyticsSDK: Event: spam_event_441
+05-16 17:03:18.717  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.717  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.718  9953  9969 D AnalyticsSDK: Event: spam_event_442
+05-16 17:03:18.718  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.718  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.719  9953  9969 D AnalyticsSDK: Event: spam_event_443
+05-16 17:03:18.719  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.719  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.722  9953  9969 D AnalyticsSDK: Event: spam_event_444
+05-16 17:03:18.722  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.722  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.725  9953  9969 D AnalyticsSDK: Event: spam_event_445
+05-16 17:03:18.725  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.725  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.725  9953  9982 D AnalyticsSDK: Saved event to database: spam_event_22
+05-16 17:03:18.729  9953  9969 D AnalyticsSDK: Event: spam_event_446
+05-16 17:03:18.729  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.729  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.730  9953  9969 D AnalyticsSDK: Event: spam_event_447
+05-16 17:03:18.730  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.730  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.731  9953  9969 D AnalyticsSDK: Event: spam_event_448
+05-16 17:03:18.731  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.731  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.731  9953  9969 D AnalyticsSDK: Event: spam_event_449
+05-16 17:03:18.731  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.731  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.734  9953  9969 D AnalyticsSDK: Event: spam_event_450
+05-16 17:03:18.734  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.734  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.735  9953  9969 D AnalyticsSDK: Event: spam_event_451
+05-16 17:03:18.735  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.735  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.736  9953  9969 D AnalyticsSDK: Event: spam_event_452
+05-16 17:03:18.736  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.736  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.740  9953  9969 D AnalyticsSDK: Event: spam_event_453
+05-16 17:03:18.740  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.740  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.742  9953  9969 D AnalyticsSDK: Event: spam_event_454
+05-16 17:03:18.742  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.742  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.743  9953  9969 D AnalyticsSDK: Event: spam_event_455
+05-16 17:03:18.743  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.743  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.743  9953  9969 D AnalyticsSDK: Event: spam_event_456
+05-16 17:03:18.743  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.743  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.744  9953  9975 D AnalyticsSDK: Saved event to database: spam_event_28
+05-16 17:03:18.746  9953  9969 D AnalyticsSDK: Event: spam_event_457
+05-16 17:03:18.746  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.746  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.747  9953  9969 D AnalyticsSDK: Event: spam_event_458
+05-16 17:03:18.747  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.747  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.747  9953  9969 D AnalyticsSDK: Event: spam_event_459
+05-16 17:03:18.747  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.747  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.748  9953  9969 D AnalyticsSDK: Event: spam_event_460
+05-16 17:03:18.748  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.748  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.750  9953  9969 D AnalyticsSDK: Event: spam_event_461
+05-16 17:03:18.750  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.750  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.750  9953  9969 D AnalyticsSDK: Event: spam_event_462
+05-16 17:03:18.750  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.750  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.751  9953  9969 D AnalyticsSDK: Event: spam_event_463
+05-16 17:03:18.751  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.751  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.752  9953  9969 D AnalyticsSDK: Event: spam_event_464
+05-16 17:03:18.752  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.752  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.753  9953  9969 D AnalyticsSDK: Event: spam_event_465
+05-16 17:03:18.753  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.753  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.754  9953  9969 D AnalyticsSDK: Event: spam_event_466
+05-16 17:03:18.754  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.754  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.756  9953  9969 D AnalyticsSDK: Event: spam_event_467
+05-16 17:03:18.756  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.756  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.756  9953  9969 D AnalyticsSDK: Event: spam_event_468
+05-16 17:03:18.756  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.756  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.757  9953  9969 D AnalyticsSDK: Event: spam_event_469
+05-16 17:03:18.757  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.757  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.761  9953  9969 D AnalyticsSDK: Event: spam_event_470
+05-16 17:03:18.761  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.761  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.761  9953  9969 D AnalyticsSDK: Event: spam_event_471
+05-16 17:03:18.761  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.761  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.762  9953  9969 D AnalyticsSDK: Event: spam_event_472
+05-16 17:03:18.762  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.762  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.766  9953  9969 D AnalyticsSDK: Event: spam_event_473
+05-16 17:03:18.766  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.766  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.766  9953  9969 D AnalyticsSDK: Event: spam_event_474
+05-16 17:03:18.766  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.766  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.767  9953  9969 D AnalyticsSDK: Event: spam_event_475
+05-16 17:03:18.767  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.767  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.768  9953  9969 D AnalyticsSDK: Event: spam_event_476
+05-16 17:03:18.768  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.768  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.769  9953  9969 D AnalyticsSDK: Event: spam_event_477
+05-16 17:03:18.769  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.769  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.770  9953  9969 D AnalyticsSDK: Event: spam_event_478
+05-16 17:03:18.770  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.770  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.771  9953  9969 D AnalyticsSDK: Event: spam_event_479
+05-16 17:03:18.771  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.771  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.771  9953  9969 D AnalyticsSDK: Event: spam_event_480
+05-16 17:03:18.771  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.771  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.775  9953  9969 D AnalyticsSDK: Event: spam_event_481
+05-16 17:03:18.775  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.775  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.777  9953  9969 D AnalyticsSDK: Event: spam_event_482
+05-16 17:03:18.777  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.777  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.777  9953  9969 D AnalyticsSDK: Event: spam_event_483
+05-16 17:03:18.777  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.777  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.778  9953  9969 D AnalyticsSDK: Event: spam_event_484
+05-16 17:03:18.778  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.778  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.779  9953 10005 D AnalyticsSDK: Saved event to database: spam_event_29
+05-16 17:03:18.782  9953  9969 D AnalyticsSDK: Event: spam_event_485
+05-16 17:03:18.782  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.782  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.783  9953  9969 D AnalyticsSDK: Event: spam_event_486
+05-16 17:03:18.783  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.783  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.783  9953  9969 D AnalyticsSDK: Event: spam_event_487
+05-16 17:03:18.783  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.783  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.785  9953  9969 D AnalyticsSDK: Event: spam_event_488
+05-16 17:03:18.785  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.785  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.787  9953  9969 D AnalyticsSDK: Event: spam_event_489
+05-16 17:03:18.787  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.787  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.788  9953  9969 D AnalyticsSDK: Event: spam_event_490
+05-16 17:03:18.788  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.788  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.790  9953  9969 D AnalyticsSDK: Event: spam_event_491
+05-16 17:03:18.790  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.790  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.790  9953  9969 D AnalyticsSDK: Event: spam_event_492
+05-16 17:03:18.790  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.790  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.791  9953  9969 D AnalyticsSDK: Event: spam_event_493
+05-16 17:03:18.791  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.791  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.791  9953  9969 D AnalyticsSDK: Event: spam_event_494
+05-16 17:03:18.791  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.791  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.792  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_21
+05-16 17:03:18.793  9953  9969 D AnalyticsSDK: Event: spam_event_495
+05-16 17:03:18.793  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.793  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.796  9953  9969 D AnalyticsSDK: Event: spam_event_496
+05-16 17:03:18.796  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.796  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.798  9953  9969 D AnalyticsSDK: Event: spam_event_497
+05-16 17:03:18.798  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.798  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.799  9953  9969 D AnalyticsSDK: Event: spam_event_498
+05-16 17:03:18.799  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.799  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.800  9953  9969 D AnalyticsSDK: Event: spam_event_499
+05-16 17:03:18.800  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.800  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.803  9953  9969 D AnalyticsSDK: Event: spam_event_500
+05-16 17:03:18.803  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.803  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.806  9953  9969 D AnalyticsSDK: Event: spam_event_501
+05-16 17:03:18.806  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.806  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.806  9953  9969 D AnalyticsSDK: Event: spam_event_502
+05-16 17:03:18.806  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.806  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.808  9953  9969 D AnalyticsSDK: Event: spam_event_503
+05-16 17:03:18.808  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.808  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.809  9953  9969 D AnalyticsSDK: Event: spam_event_504
+05-16 17:03:18.809  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.809  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.811  9953  9969 D AnalyticsSDK: Event: spam_event_505
+05-16 17:03:18.811  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:18.811  9953  9969 D AnalyticsSDK: {}
+05-16 17:03:18.815  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_30
+05-16 17:03:18.821  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_32
+05-16 17:03:18.825  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_27
+05-16 17:03:18.829  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_31
+05-16 17:03:18.831  9953 10011 I okhttp.OkHttpClient: --> POST https://api.dummy.com/events
+05-16 17:03:18.831  9953 10011 I okhttp.OkHttpClient: Content-Type: application/json; charset=UTF-8
+05-16 17:03:18.831  9953 10011 I okhttp.OkHttpClient: Content-Length: 1336
+05-16 17:03:18.832  9953 10011 I okhttp.OkHttpClient: X-Analytics-SDK-Version: 1.0.0
+05-16 17:03:18.833  9953 10011 I okhttp.OkHttpClient: [{"anonymousId":"anon_e1d80876-a48c-4b62-9791-5367ebc9c3cf","deviceInfo":{"os":"Android 16","model":"Google sdk_gphone64_x86_64","app_version":"unknown","sdk_version":"1.0.0","locale":"en-US","network":"wifi"},"id":731,"name":"spam_event_1","timestamp":1778931198093},{"anonymousId":"anon_e1d80876-a48c-4b62-9791-5367ebc9c3cf","deviceInfo":{"os":"Android 16","model":"Google sdk_gphone64_x86_64","app_version":"unknown","sdk_version":"1.0.0","locale":"en-US","network":"wifi"},"id":730,"name":"spam_event_3","timestamp":1778931198094},{"anonymousId":"anon_e1d80876-a48c-4b62-9791-5367ebc9c3cf","deviceInfo":{"os":"Android 16","model":"Google sdk_gphone64_x86_64","app_version":"unknown","sdk_version":"1.0.0","locale":"en-US","network":"wifi"},"id":734,"name":"spam_event_2","timestamp":1778931198096},{"anonymousId":"anon_e1d80876-a48c-4b62-9791-5367ebc9c3cf","deviceInfo":{"os":"Android 16","model":"Google sdk_gphone64_x86_64","app_version":"unknown","sdk_version":"1.0.0","locale":"en-US","network":"wifi"},"id":739,"name":"spam_event_4","timestamp":1778931198096},{"anonymousId":"anon_e1d80876-a48c-4b62-9791-5367ebc9c3cf","deviceInfo":{"os":"Android 16","model":"Google sdk_gphone64_x86_64","app_version":"unknown","sdk_version":"1.0.0","locale":"en-US","network":"wifi"},"id":732,"name":"spam_event_5","timestamp":1778931198098}]
+05-16 17:03:18.833  9953 10011 I okhttp.OkHttpClient: --> END POST (1336-byte body)
+05-16 17:03:18.835  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_35
+05-16 17:03:18.839  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_34
+05-16 17:03:18.846  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_19
+05-16 17:03:18.851  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_36
+05-16 17:03:18.855  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_37
+05-16 17:03:18.860  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_38
+05-16 17:03:18.864  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_41
+05-16 17:03:18.868  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_42
+05-16 17:03:18.872  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_40
+05-16 17:03:18.876  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_44
+05-16 17:03:18.880  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_33
+05-16 17:03:18.884  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_39
+05-16 17:03:18.900  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_43
+05-16 17:03:18.905  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_46
+05-16 17:03:18.909  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_49
+05-16 17:03:18.913  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_50
+05-16 17:03:18.917  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_51
+05-16 17:03:18.921  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_48
+05-16 17:03:18.925  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_60
+05-16 17:03:18.929  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_53
+05-16 17:03:18.934  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_57
+05-16 17:03:18.939  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_56
+05-16 17:03:18.943  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_54
+05-16 17:03:18.948  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_55
+05-16 17:03:18.952  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_45
+05-16 17:03:18.957  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_59
+05-16 17:03:18.962  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_47
+05-16 17:03:18.966  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_63
+05-16 17:03:18.970  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_58
+05-16 17:03:18.974  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_52
+05-16 17:03:18.978  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_64
+05-16 17:03:18.981  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_61
+05-16 17:03:18.986  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_62
+05-16 17:03:18.990  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_75
+05-16 17:03:18.995  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_71
+05-16 17:03:19.000  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_67
+05-16 17:03:19.004  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_74
+05-16 17:03:19.008  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_72
+05-16 17:03:19.013  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_66
+05-16 17:03:19.016  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_68
+05-16 17:03:19.021  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_77
+05-16 17:03:19.025  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_69
+05-16 17:03:19.029  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_70
+05-16 17:03:19.033  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_73
+05-16 17:03:19.037  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_65
+05-16 17:03:19.041  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_82
+05-16 17:03:19.045  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_81
+05-16 17:03:19.049  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_84
+05-16 17:03:19.053  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_87
+05-16 17:03:19.057  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_78
+05-16 17:03:19.061  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_80
+05-16 17:03:19.065  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_79
+05-16 17:03:19.069  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_90
+05-16 17:03:19.073  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_88
+05-16 17:03:19.076  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_86
+05-16 17:03:19.080  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_85
+05-16 17:03:19.084  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_83
+05-16 17:03:19.088  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_89
+05-16 17:03:19.092  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_91
+05-16 17:03:19.103  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_76
+05-16 17:03:19.109  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_93
+05-16 17:03:19.113  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_94
+05-16 17:03:19.116  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_92
+05-16 17:03:19.120  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_95
+05-16 17:03:19.124  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_97
+05-16 17:03:19.129  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_96
+05-16 17:03:19.133  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_99
+05-16 17:03:19.137  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_98
+05-16 17:03:19.141  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_104
+05-16 17:03:19.146  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_100
+05-16 17:03:19.150  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_102
+05-16 17:03:19.154  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_103
+05-16 17:03:19.158  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_107
+05-16 17:03:19.164  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_101
+05-16 17:03:19.168  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_106
+05-16 17:03:19.173  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_108
+05-16 17:03:19.177  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_105
+05-16 17:03:19.181  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_114
+05-16 17:03:19.185  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_110
+05-16 17:03:19.189  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_117
+05-16 17:03:19.193  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_113
+05-16 17:03:19.197  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_118
+05-16 17:03:19.201  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_116
+05-16 17:03:19.205  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_111
+05-16 17:03:19.208  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_122
+05-16 17:03:19.212  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_112
+05-16 17:03:19.216  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_120
+05-16 17:03:19.219  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_115
+05-16 17:03:19.225  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_128
+05-16 17:03:19.229  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_109
+05-16 17:03:19.234  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_124
+05-16 17:03:19.240  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_129
+05-16 17:03:19.244  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_123
+05-16 17:03:19.247  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_119
+05-16 17:03:19.252  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_127
+05-16 17:03:19.257  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_131
+05-16 17:03:19.262  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_130
+05-16 17:03:19.266  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_140
+05-16 17:03:19.270  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_136
+05-16 17:03:19.275  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_133
+05-16 17:03:19.279  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_132
+05-16 17:03:19.284  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_134
+05-16 17:03:19.288  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_126
+05-16 17:03:19.292  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_137
+05-16 17:03:19.296  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_141
+05-16 17:03:19.306  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_121
+05-16 17:03:19.311  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_125
+05-16 17:03:19.315  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_138
+05-16 17:03:19.319  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_139
+05-16 17:03:19.325  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_143
+05-16 17:03:19.328  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_135
+05-16 17:03:19.332  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_142
+05-16 17:03:19.337  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_145
+05-16 17:03:19.341  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_146
+05-16 17:03:19.345  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_147
+05-16 17:03:19.349  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_150
+05-16 17:03:19.354  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_148
+05-16 17:03:19.358  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_149
+05-16 17:03:19.362  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_153
+05-16 17:03:19.366  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_151
+05-16 17:03:19.369  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_154
+05-16 17:03:19.373  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_152
+05-16 17:03:19.376  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_144
+05-16 17:03:19.380  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_162
+05-16 17:03:19.386  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_157
+05-16 17:03:19.389  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_155
+05-16 17:03:19.394  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_161
+05-16 17:03:19.398  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_160
+05-16 17:03:19.401  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_156
+05-16 17:03:19.405  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_166
+05-16 17:03:19.409  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_163
+05-16 17:03:19.414  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_159
+05-16 17:03:19.416  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_158
+05-16 17:03:19.420  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_164
+05-16 17:03:19.426  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_171
+05-16 17:03:19.429  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_165
+05-16 17:03:19.433  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_168
+05-16 17:03:19.436  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_174
+05-16 17:03:19.440  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_172
+05-16 17:03:19.443  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_176
+05-16 17:03:19.447  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_175
+05-16 17:03:19.452  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_167
+05-16 17:03:19.455  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_170
+05-16 17:03:19.459  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_173
+05-16 17:03:19.462  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_169
+05-16 17:03:19.466  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_177
+05-16 17:03:19.470  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_180
+05-16 17:03:19.475  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_181
+05-16 17:03:19.479  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_179
+05-16 17:03:19.483  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_185
+05-16 17:03:19.486  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_178
+05-16 17:03:19.490  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_188
+05-16 17:03:19.498  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_183
+05-16 17:03:19.503  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_187
+05-16 17:03:19.507  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_182
+05-16 17:03:19.512  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_186
+05-16 17:03:19.515  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_190
+05-16 17:03:19.519  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_184
+05-16 17:03:19.522  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_189
+05-16 17:03:19.527  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_191
+05-16 17:03:19.531  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_194
+05-16 17:03:19.536  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_195
+05-16 17:03:19.540  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_192
+05-16 17:03:19.544  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_199
+05-16 17:03:19.548  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_200
+05-16 17:03:19.551  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_196
+05-16 17:03:19.555  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_202
+05-16 17:03:19.560  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_193
+05-16 17:03:19.564  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_201
+05-16 17:03:19.568  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_198
+05-16 17:03:19.571  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_205
+05-16 17:03:19.575  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_204
+05-16 17:03:19.579  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_197
+05-16 17:03:19.582  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_203
+05-16 17:03:19.586  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_208
+05-16 17:03:19.590  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_206
+05-16 17:03:19.593  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_207
+05-16 17:03:19.598  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_211
+05-16 17:03:19.602  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_209
+05-16 17:03:19.607  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_210
+05-16 17:03:19.610  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_212
+05-16 17:03:19.614  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_213
+05-16 17:03:19.619  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_218
+05-16 17:03:19.623  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_216
+05-16 17:03:19.628  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_217
+05-16 17:03:19.632  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_214
+05-16 17:03:19.635  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_219
+05-16 17:03:19.638  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_221
+05-16 17:03:19.642  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_225
+05-16 17:03:19.645  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_223
+05-16 17:03:19.648  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_222
+05-16 17:03:19.652  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_224
+05-16 17:03:19.655  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_229
+05-16 17:03:19.660  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_226
+05-16 17:03:19.663  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_231
+05-16 17:03:19.666  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_228
+05-16 17:03:19.670  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_220
+05-16 17:03:19.674  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_232
+05-16 17:03:19.684  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_215
+05-16 17:03:19.689  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_230
+05-16 17:03:19.693  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_235
+05-16 17:03:19.697  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_233
+05-16 17:03:19.700  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_236
+05-16 17:03:19.703  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_234
+05-16 17:03:19.707  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_237
+05-16 17:03:19.711  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_227
+05-16 17:03:19.715  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_239
+05-16 17:03:19.718  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_240
+05-16 17:03:19.723  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_245
+05-16 17:03:19.726  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_243
+05-16 17:03:19.730  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_242
+05-16 17:03:19.733  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_244
+05-16 17:03:19.736  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_241
+05-16 17:03:19.740  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_238
+05-16 17:03:19.743  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_247
+05-16 17:03:19.747  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_251
+05-16 17:03:19.750  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_250
+05-16 17:03:19.754  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_246
+05-16 17:03:19.758  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_248
+05-16 17:03:19.762  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_249
+05-16 17:03:19.767  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_253
+05-16 17:03:19.771  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_252
+05-16 17:03:19.775  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_254
+05-16 17:03:19.779  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_255
+05-16 17:03:19.784  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_257
+05-16 17:03:19.787  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_258
+05-16 17:03:19.790  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_259
+05-16 17:03:19.792  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_260
+05-16 17:03:19.795  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_263
+05-16 17:03:19.798  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_261
+05-16 17:03:19.802  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_274
+05-16 17:03:19.805  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_273
+05-16 17:03:19.807  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_268
+05-16 17:03:19.811  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_265
+05-16 17:03:19.814  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_275
+05-16 17:03:19.818  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_264
+05-16 17:03:19.820  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_277
+05-16 17:03:19.823  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_278
+05-16 17:03:19.826  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_266
+05-16 17:03:19.830  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_287
+05-16 17:03:19.833  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_267
+05-16 17:03:19.835  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_284
+05-16 17:03:19.839  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_292
+05-16 17:03:19.841  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_276
+05-16 17:03:19.844  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_262
+05-16 17:03:19.853  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_290
+05-16 17:03:19.857  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_289
+05-16 17:03:19.860  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_285
+05-16 17:03:19.864  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_282
+05-16 17:03:19.866  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_281
+05-16 17:03:19.869  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_270
+05-16 17:03:19.872  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_288
+05-16 17:03:19.875  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_286
+05-16 17:03:19.878  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_294
+05-16 17:03:19.881  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_291
+05-16 17:03:19.884  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_280
+05-16 17:03:19.887  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_256
+05-16 17:03:19.891  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_272
+05-16 17:03:19.894  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_295
+05-16 17:03:19.897  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_271
+05-16 17:03:19.901  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_269
+05-16 17:03:19.903  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_299
+05-16 17:03:19.907  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_296
+05-16 17:03:19.910  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_304
+05-16 17:03:19.913  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_302
+05-16 17:03:19.916  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_297
+05-16 17:03:19.918  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_300
+05-16 17:03:19.921  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_301
+05-16 17:03:19.924  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_303
+05-16 17:03:19.927  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_298
+05-16 17:03:19.930  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_283
+05-16 17:03:19.934  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_305
+05-16 17:03:19.936  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_312
+05-16 17:03:19.939  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_279
+05-16 17:03:19.943  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_311
+05-16 17:03:19.947  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_306
+05-16 17:03:19.950  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_313
+05-16 17:03:19.953  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_293
+05-16 17:03:19.956  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_315
+05-16 17:03:19.960  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_308
+05-16 17:03:19.963  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_309
+05-16 17:03:19.967  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_317
+05-16 17:03:19.969  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_310
+05-16 17:03:19.972  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_319
+05-16 17:03:19.976  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_316
+05-16 17:03:19.978  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_307
+05-16 17:03:19.980  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_314
+05-16 17:03:19.983  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_321
+05-16 17:03:19.987  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_320
+05-16 17:03:19.993  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_322
+05-16 17:03:19.996  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_325
+05-16 17:03:19.999  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_318
+05-16 17:03:20.008  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_323
+05-16 17:03:20.012  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_324
+05-16 17:03:20.015  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_334
+05-16 17:03:20.018  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_329
+05-16 17:03:20.021  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_327
+05-16 17:03:20.024  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_326
+05-16 17:03:20.027  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_333
+05-16 17:03:20.031  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_332
+05-16 17:03:20.034  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_330
+05-16 17:03:20.037  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_331
+05-16 17:03:20.040  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_336
+05-16 17:03:20.043  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_328
+05-16 17:03:20.045  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_335
+05-16 17:03:20.048  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_337
+05-16 17:03:20.051  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_339
+05-16 17:03:20.054  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_340
+05-16 17:03:20.058  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_341
+05-16 17:03:20.062  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_338
+05-16 17:03:20.065  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_342
+05-16 17:03:20.067  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_346
+05-16 17:03:20.070  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_345
+05-16 17:03:20.074  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_344
+05-16 17:03:20.076  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_343
+05-16 17:03:20.079  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_347
+05-16 17:03:20.082  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_350
+05-16 17:03:20.085  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_349
+05-16 17:03:20.088  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_355
+05-16 17:03:20.090  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_351
+05-16 17:03:20.093  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_352
+05-16 17:03:20.096  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_357
+05-16 17:03:20.099  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_358
+05-16 17:03:20.102  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_360
+05-16 17:03:20.105  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_356
+05-16 17:03:20.108  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_362
+05-16 17:03:20.111  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_348
+05-16 17:03:20.114  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_354
+05-16 17:03:20.119  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_370
+05-16 17:03:20.122  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_359
+05-16 17:03:20.126  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_353
+05-16 17:03:20.129  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_364
+05-16 17:03:20.132  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_363
+05-16 17:03:20.135  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_369
+05-16 17:03:20.138  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_361
+05-16 17:03:20.141  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_367
+05-16 17:03:20.144  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_366
+05-16 17:03:20.147  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_368
+05-16 17:03:20.150  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_371
+05-16 17:03:20.158  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_375
+05-16 17:03:20.163  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_373
+05-16 17:03:20.166  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_372
+05-16 17:03:20.168  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_365
+05-16 17:03:20.171  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_376
+05-16 17:03:20.175  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_377
+05-16 17:03:20.178  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_378
+05-16 17:03:20.181  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_379
+05-16 17:03:20.184  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_381
+05-16 17:03:20.187  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_380
+05-16 17:03:20.190  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_382
+05-16 17:03:20.194  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_374
+05-16 17:03:20.197  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_385
+05-16 17:03:20.199  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_386
+05-16 17:03:20.202  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_387
+05-16 17:03:20.206  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_383
+05-16 17:03:20.209  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_384
+05-16 17:03:20.212  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_389
+05-16 17:03:20.214  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_388
+05-16 17:03:20.217  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_390
+05-16 17:03:20.220  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_391
+05-16 17:03:20.223  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_393
+05-16 17:03:20.226  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_395
+05-16 17:03:20.229  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_394
+05-16 17:03:20.232  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_392
+05-16 17:03:20.234  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_402
+05-16 17:03:20.237  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_396
+05-16 17:03:20.240  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_398
+05-16 17:03:20.243  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_399
+05-16 17:03:20.247  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_400
+05-16 17:03:20.249  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_401
+05-16 17:03:20.251  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_404
+05-16 17:03:20.254  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_397
+05-16 17:03:20.257  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_405
+05-16 17:03:20.259  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_406
+05-16 17:03:20.262  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_403
+05-16 17:03:20.267  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_407
+05-16 17:03:20.270  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_410
+05-16 17:03:20.273  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_409
+05-16 17:03:20.276  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_411
+05-16 17:03:20.280  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_413
+05-16 17:03:20.283  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_414
+05-16 17:03:20.287  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_408
+05-16 17:03:20.290  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_412
+05-16 17:03:20.293  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_419
+05-16 17:03:20.296  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_415
+05-16 17:03:20.299  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_418
+05-16 17:03:20.307  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_416
+05-16 17:03:20.311  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_421
+05-16 17:03:20.314  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_423
+05-16 17:03:20.317  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_420
+05-16 17:03:20.319  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_417
+05-16 17:03:20.323  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_424
+05-16 17:03:20.326  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_422
+05-16 17:03:20.330  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_428
+05-16 17:03:20.334  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_427
+05-16 17:03:20.337  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_425
+05-16 17:03:20.340  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_426
+05-16 17:03:20.342  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_429
+05-16 17:03:20.346  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_430
+05-16 17:03:20.348  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_434
+05-16 17:03:20.351  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_435
+05-16 17:03:20.354  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_436
+05-16 17:03:20.357  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_433
+05-16 17:03:20.360  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_432
+05-16 17:03:20.363  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_431
+05-16 17:03:20.366  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_439
+05-16 17:03:20.369  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_441
+05-16 17:03:20.372  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_437
+05-16 17:03:20.375  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_442
+05-16 17:03:20.377  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_440
+05-16 17:03:20.380  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_443
+05-16 17:03:20.383  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_444
+05-16 17:03:20.387  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_438
+05-16 17:03:20.390  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_448
+05-16 17:03:20.393  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_447
+05-16 17:03:20.396  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_446
+05-16 17:03:20.399  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_449
+05-16 17:03:20.402  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_445
+05-16 17:03:20.405  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_451
+05-16 17:03:20.407  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_450
+05-16 17:03:20.410  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_452
+05-16 17:03:20.414  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_455
+05-16 17:03:20.417  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_458
+05-16 17:03:20.419  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_459
+05-16 17:03:20.422  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_462
+05-16 17:03:20.424  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_453
+05-16 17:03:20.427  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_454
+05-16 17:03:20.430  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_460
+05-16 17:03:20.433  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_456
+05-16 17:03:20.436  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_461
+05-16 17:03:20.439  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_468
+05-16 17:03:20.442  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_457
+05-16 17:03:20.449  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_463
+05-16 17:03:20.453  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_465
+05-16 17:03:20.456  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_469
+05-16 17:03:20.459  9953  9989 D AnalyticsSDK: Saved event to database: spam_event_466
+05-16 17:03:20.462  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_467
+05-16 17:03:20.466  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_470
+05-16 17:03:20.469  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_478
+05-16 17:03:20.471  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_477
+05-16 17:03:20.474  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_464
+05-16 17:03:20.477  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_473
+05-16 17:03:20.480  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_479
+05-16 17:03:20.482  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_474
+05-16 17:03:20.486  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_475
+05-16 17:03:20.489  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_472
+05-16 17:03:20.491  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_471
+05-16 17:03:20.494  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_480
+05-16 17:03:20.497  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_482
+05-16 17:03:20.501  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_476
+05-16 17:03:20.504  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_481
+05-16 17:03:20.507  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_485
+05-16 17:03:20.511  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_483
+05-16 17:03:20.513  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_489
+05-16 17:03:20.516  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_486
+05-16 17:03:20.519  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_484
+05-16 17:03:20.522  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_488
+05-16 17:03:20.524  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_494
+05-16 17:03:20.527  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_492
+05-16 17:03:20.530  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_491
+05-16 17:03:20.534  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_490
+05-16 17:03:20.537  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_495
+05-16 17:03:20.540  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_487
+05-16 17:03:20.543  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_493
+05-16 17:03:20.547  9953  9999 D AnalyticsSDK: Saved event to database: spam_event_496
+05-16 17:03:20.551  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_500
+05-16 17:03:20.554  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_499
+05-16 17:03:20.557  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_498
+05-16 17:03:20.559  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_501
+05-16 17:03:20.563  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_497
+05-16 17:03:20.567  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_503
+05-16 17:03:20.570  9953  9985 D AnalyticsSDK: Saved event to database: spam_event_502
+05-16 17:03:20.574  9953  9977 D AnalyticsSDK: Saved event to database: spam_event_505
+05-16 17:03:20.578  9953  9983 D AnalyticsSDK: Saved event to database: spam_event_504
+05-16 17:03:20.814  9953  9969 I TestRunner: finished: testEdgeCase_queuedEventsLimit(com.example.analytics.AnalyticsIntegrationTest)

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.analytics.tracker.EcommerceTrackerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-16T11:12:31" hostname="RAAHUL" time="0.017">
+  <properties/>
+  <testcase name="trackCheckoutStarted executes without crashing" classname="com.example.analytics.tracker.EcommerceTrackerTest" time="0.016"/>
+  <testcase name="trackAddToCart executes without crashing" classname="com.example.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <testcase name="trackOrderCompleted executes without crashing" classname="com.example.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <testcase name="trackProductView executes without crashing" classname="com.example.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

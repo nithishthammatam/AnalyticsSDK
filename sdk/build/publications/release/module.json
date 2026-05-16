@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.analytics",
+    "module": "analytics-sdk",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-sdk-1.0.0.aar",
+          "url": "analytics-sdk-1.0.0.aar",
+          "size": 67810,
+          "sha512": "3951ea15a52a4a596c5b89854940f22774313b276b80efd89bc69b17f6d63cefc196f6b325c20e3e063a7e39043467ea9cd6ba52b2b2b8cf017ea94a9af996af",
+          "sha256": "47bd8db73116eaf566b96aef8d5ab18507aaba84b90721312eae4b763e013a71",
+          "sha1": "c852f36e847ffea11f7eead714683067265a7458",
+          "md5": "0c018a3844ef823140dfee699ecbae86"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.5.2"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.5.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "analytics-sdk-1.0.0.aar",
+          "url": "analytics-sdk-1.0.0.aar",
+          "size": 67810,
+          "sha512": "3951ea15a52a4a596c5b89854940f22774313b276b80efd89bc69b17f6d63cefc196f6b325c20e3e063a7e39043467ea9cd6ba52b2b2b8cf017ea94a9af996af",
+          "sha256": "47bd8db73116eaf566b96aef8d5ab18507aaba84b90721312eae4b763e013a71",
+          "sha1": "c852f36e847ffea11f7eead714683067265a7458",
+          "md5": "0c018a3844ef823140dfee699ecbae86"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "analytics-sdk-1.0.0-sources.jar",
+          "url": "analytics-sdk-1.0.0-sources.jar",
+          "size": 29379,
+          "sha512": "e8c0bb1bb0e9b6571320564057c289e5e3513630503eaf1e031fe4957797acf890cd2004add718140d7aa50e791098a4a99cbb34771ad2664949ca54af832ca9",
+          "sha256": "3c5e66520cd753389a7f063f6b407089330cb58cd61b2328df26a90ad557d804",
+          "sha1": "413d117c2237557f4e869a9ae57905ef753674d4",
+          "md5": "32130d1c0b2ae939486f0996d15a8782"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+05-16 17:03:20.823  9953  9969 I TestRunner: started: testFullEventLifecycle_trackAndStore(com.example.analytics.AnalyticsIntegrationTest)
+05-16 17:03:20.835  9953  9969 D AnalyticsSDK: AnalyticsSDK is already initialized.
+05-16 17:03:20.836  9953  9969 D AnalyticsSDK: Event: integration_test_event
+05-16 17:03:20.836  9953  9969 D AnalyticsSDK: Properties:
+05-16 17:03:20.836  9953  9969 D AnalyticsSDK: {
+05-16 17:03:20.836  9953  9969 D AnalyticsSDK:     "source": "instrumentation_test"
+05-16 17:03:20.836  9953  9969 D AnalyticsSDK: }
+05-16 17:03:20.844  9953  9985 D AnalyticsSDK: Saved event to database: integration_test_event
+05-16 17:03:21.342  9953  9969 I TestRunner: finished: testFullEventLifecycle_trackAndStore(com.example.analytics.AnalyticsIntegrationTest)
