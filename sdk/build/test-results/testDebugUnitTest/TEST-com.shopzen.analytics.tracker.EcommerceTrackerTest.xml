@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shopzen.analytics.tracker.EcommerceTrackerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-05-17T11:38:29" hostname="RAAHUL" time="0.028">
+  <properties/>
+  <testcase name="trackPaymentSuccess executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.027"/>
+  <testcase name="trackPaymentFailed executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <testcase name="trackCheckoutStarted executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <testcase name="trackAddToCart executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <testcase name="trackOrderCompleted executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <testcase name="trackFunnelStep executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <testcase name="trackProductView executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.001"/>
+  <testcase name="trackPaymentAttempted executes without crashing" classname="com.shopzen.analytics.tracker.EcommerceTrackerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.example.analytics.AnalyticsIntegrationTest" tests="2" failures="0" errors="0" skipped="0" time="3.678" timestamp="2026-05-16T11:35:08" hostname="localhost">
+<testsuite name="com.shopzen.analytics.AnalyticsIntegrationTest" tests="2" failures="0" errors="0" skipped="0" time="3.678" timestamp="2026-05-16T11:35:08" hostname="localhost">
   <properties>
     <property name="device" value="Medium_Phone_API_36.1(AVD) - 16" />
     <property name="flavor" value="" />
     <property name="project" value=":sdk" />
   </properties>
-  <testcase name="testEdgeCase_queuedEventsLimit" classname="com.example.analytics.AnalyticsIntegrationTest" time="2.943" />
-  <testcase name="testFullEventLifecycle_trackAndStore" classname="com.example.analytics.AnalyticsIntegrationTest" time="0.521" />
+  <testcase name="testEdgeCase_queuedEventsLimit" classname="com.shopzen.analytics.AnalyticsIntegrationTest" time="2.943" />
+  <testcase name="testFullEventLifecycle_trackAndStore" classname="com.shopzen.analytics.AnalyticsIntegrationTest" time="0.521" />
 </testsuite>

@@ -39,4 +39,3 @@ com.example.sampleapp.sample-app-packageDebugResources-37 C:\cognera\analytics-s
 com.example.sampleapp.sample-app-debug-38 C:\cognera\analytics-sdk\sample-app\build\intermediates\merged_res\debug\mergeDebugResources
 com.example.sampleapp.sample-app-debug-39 C:\cognera\analytics-sdk\sample-app\src\debug\res
 com.example.sampleapp.sample-app-main-40 C:\cognera\analytics-sdk\sample-app\src\main\res
-com.example.sampleapp.sample-app-debug-41 C:\cognera\analytics-sdk\sdk\build\intermediates\packaged_res\debug\packageDebugResources

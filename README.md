@@ -20,7 +20,7 @@ repositories {
     mavenLocal()
 }
 dependencies {
-    implementation("com.example.analytics:analytics-sdk:1.0.0")
+    implementation("com.shopzen.analytics:analytics-sdk:1.0.0")
 }
 ```
 
@@ -74,7 +74,7 @@ EcommerceTracker.trackOrderCompleted("ORDER_999", totalValue = 240.00)
 ### UI & Screen Tracking
 Screen views are tracked automatically. For buttons, use the Kotlin extension:
 ```kotlin
-import com.example.analytics.tracker.trackClick
+import com.shopzen.analytics.tracker.trackClick
 
 myButton.trackClick("signup_button_clicked") {
     // Original click logic here

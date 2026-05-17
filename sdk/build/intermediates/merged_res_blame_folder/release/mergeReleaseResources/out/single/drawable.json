@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.shopzen.analytics.sdk-release-20:/drawable/notification_icon_background.xml",
+        "source": "com.shopzen.analytics.sdk-core-1.10.1-10:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.shopzen.analytics.sdk-release-20:/drawable/notification_bg.xml",
+        "source": "com.shopzen.analytics.sdk-core-1.10.1-10:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.shopzen.analytics.sdk-release-20:/drawable/notification_bg_low.xml",
+        "source": "com.shopzen.analytics.sdk-core-1.10.1-10:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.shopzen.analytics.sdk-release-20:/drawable/notification_tile_bg.xml",
+        "source": "com.shopzen.analytics.sdk-core-1.10.1-10:/drawable/notification_tile_bg.xml"
+    }
+]

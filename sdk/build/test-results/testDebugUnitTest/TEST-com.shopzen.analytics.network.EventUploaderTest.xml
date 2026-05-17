@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shopzen.analytics.network.EventUploaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-17T11:38:24" hostname="RAAHUL" time="2.124">
+  <properties/>
+  <testcase name="uploadBatch returns false on 500 error" classname="com.shopzen.analytics.network.EventUploaderTest" time="2.089"/>
+  <testcase name="uploadBatch returns true on successful 200 response" classname="com.shopzen.analytics.network.EventUploaderTest" time="0.035"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://kubernetes.docker.internal:60420/events
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: Content-Type: application/json; charset=UTF-8
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: Content-Length: 40
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: X-Analytics-SDK-Version: 1.0.0
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: 
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: [{"id":0,"name":"test","timestamp":123}]
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: --> END POST (40-byte body)
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: <-- 500 Server Error http://kubernetes.docker.internal:60420/events (39ms)
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: Content-Length: 0
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: <-- END HTTP (0-byte body)
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://kubernetes.docker.internal:60422/events
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: Content-Type: application/json; charset=UTF-8
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: Content-Length: 40
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: X-Analytics-SDK-Version: 1.0.0
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: 
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: [{"id":0,"name":"test","timestamp":123}]
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: --> END POST (40-byte body)
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 OK http://kubernetes.docker.internal:60422/events (1ms)
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: Content-Length: 0
+May 17, 2026 5:08:26 PM okhttp3.internal.platform.Platform log
+INFO: <-- END HTTP (0-byte body)
+]]></system-err>
+</testsuite>

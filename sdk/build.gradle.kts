@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.analytics"
+    namespace = "com.shopzen.analytics"
     compileSdk = 33
 
     defaultConfig {
@@ -74,7 +74,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.example.analytics"
+                groupId = "com.shopzen.analytics"
                 artifactId = "analytics-sdk"
                 version = "1.0.0"
             }

@@ -1,11 +1,11 @@
-package com.example.analytics
+package com.shopzen.analytics
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.analytics.core.AnalyticsSDK
-import com.example.analytics.core.SDKConfig
-import com.example.analytics.storage.EventDatabase
+import com.shopzen.analytics.core.AnalyticsSDK
+import com.shopzen.analytics.core.SDKConfig
+import com.shopzen.analytics.storage.EventDatabase
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals

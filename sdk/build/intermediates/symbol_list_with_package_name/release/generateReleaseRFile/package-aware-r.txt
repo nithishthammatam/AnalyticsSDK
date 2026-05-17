@@ -1,1 +1,1 @@
-com.example.analytics
+com.shopzen.analytics
